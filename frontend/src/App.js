@@ -1,12 +1,7 @@
 import './App.css';
-import './css/common/_Reset.css';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hellow!</h1>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;

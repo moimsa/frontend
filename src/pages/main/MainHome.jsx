@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import MainHomeContent01Item from '../../components/MainHomeContent01Item.jsx';
 
 const MainHome = () => {
   return (
@@ -58,73 +59,7 @@ const MainHome = () => {
                 </div>
               </div>
             </div>
-
-            <ul className="section--content content01--list__box">
-              <li className="content01--list__item">
-                <Link>
-                  <h6>
-                    2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.
-                  </h6>
-                  <p className="date">2024. 12. 12.</p>
-                </Link>
-              </li>
-              <li className="content01--list__item">
-                <Link>
-                  <h6>
-                    2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.
-                  </h6>
-                  <p className="date">2024. 12. 12.</p>
-                </Link>
-              </li>
-              <li className="content01--list__item">
-                <Link>
-                  <h6>
-                    2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.
-                  </h6>
-                  <p className="date">2024. 12. 12.</p>
-                </Link>
-              </li>
-              <li className="content01--list__item">
-                <Link>
-                  <h6>
-                    2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.
-                  </h6>
-                  <p className="date">2024. 12. 12.</p>
-                </Link>
-              </li>
-              <li className="content01--list__item">
-                <Link>
-                  <h6>
-                    2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.
-                  </h6>
-                  <p className="date">2024. 12. 12.</p>
-                </Link>
-              </li>
-              <li className="content01--list__item">
-                <Link>
-                  <h6>
-                    2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.
-                  </h6>
-                  <p className="date">2024. 12. 12.</p>
-                </Link>
-              </li>
-              <li className="content01--list__item">
-                <Link>
-                  <h6>
-                    2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.
-                  </h6>
-                  <p className="date">2024. 12. 12.</p>
-                </Link>
-              </li>
-              <li className="content01--list__item">
-                <Link>
-                  <h6>
-                    2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.2024 2학기 기말고사 공지사항입니다.
-                  </h6>
-                  <p className="date">2024. 12. 12.</p>
-                </Link>
-              </li>
-            </ul>
+            <MainHomeContent01Item />
           </div>
         </section>
       </main>

@@ -20,7 +20,6 @@ const Header = () => {
 
     window.addEventListener('scroll', handleScroll);
 
-    // 컴포넌트 언마운트 시 이벤트 제거
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -34,14 +33,14 @@ const Header = () => {
             <Link to="/">moimsa</Link>
           </h1>
           <div
-            className="nav-btn"
+            className={`nav-btn ${isNavOpen ? 'active' : ''}`} // active 클래스 추가
             onClick={toggleNav}
           >
             <div className="btn-bar menu"></div>
             <div className="btn-bar menu"></div>
             <div className="btn-bar menu"></div>
             <div className="btn-bar close"></div>
-            <div className="btn-bar close"></div>
+            <div className="btn-bar close2"></div>
           </div>
           <nav className={`navi__comtent ${isNavOpen ? 'active' : ''}`}>
             <ul className="navi__list">

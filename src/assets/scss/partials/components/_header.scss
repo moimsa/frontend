@@ -1,0 +1,100 @@
+body{position: relative;}
+.header_wrap{
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+    transition: all 0.3s ease;
+    &.sticky {
+        position: sticky;
+        top: 0;
+        z-index: 1001;
+    }
+    header{
+        padding: 4vw;
+        background: #fff;
+        border-bottom: 1px solid #f1f1f1;
+        width: 100%;
+        .inner{
+            width: 100%;
+            position: relative;
+            width: calc(100% - 3rem);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            overflow: visible;
+            .nav-btn {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                position: relative;
+                cursor: pointer;
+                flex: 0;
+                z-index: 1000;
+              }
+              .nav-btn .btn-bar {   
+                position: relative;
+                width: 1.34em;
+                height: 3px;
+                border-radius: 5px;
+                background: #444;
+                
+                &.menu:not(:first-child) { 
+                  margin-top: 3px;
+                }
+                
+                &.close {
+                  transform-origin: center center;
+                  position: absolute;
+                  margin-top: -3px / 2;
+                  opacity: 0;
+                  top: 50%;
+                }
+              }
+            .navi__main--logo{
+                a{
+                    font-weight: bold;
+                    font-size: 4vw;
+                    color: $main-color;
+                }
+            }
+        }
+        .navi__comtent{
+            display: none;
+            position: absolute;
+            left: 0;top: 0;
+            background-color: #fff;
+            border: 1px solid #f1f1f1;
+            width: 100%;
+            padding: 2rem 1rem 0 1rem;
+            z-index: 100;
+            &.active {
+                display: block;
+            }        
+            .navi__list{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                .navi__item{
+                    width: 100%;
+                    font-size: 4vw;
+                    text-align: center;
+                    &{
+                        border-bottom: 1px solid #f1f1f1;
+                        padding: 2vh;
+                    }
+                    &:first-child{
+                        border-top: 1px solid #f1f1f1;
+                    }
+                    &:last-child{
+                        border-bottom: none;
+                    }
+                    a{
+                        font-size: 4vw;
+                        color: $main-color;
+                    }
+                }
+            }
+            
+        }
+    }
+}

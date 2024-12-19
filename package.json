@@ -12,7 +12,8 @@
     "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
     "recoil": "^0.7.7",
-    "sass": "^1.83.0"
+    "swipe": "^1.7.7",
+    "swiper": "^11.1.15"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,7 +41,8 @@
     ]
   },
   "devDependencies": {
-    "web-vitals": "^4.2.4",
-    "node-sass": "^6.0.1"
+    "sass": "^1.83.0",
+    "sass-loader": "^16.0.4",
+    "web-vitals": "^4.2.4"
   }
 }

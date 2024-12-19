@@ -1,4 +1,12 @@
-* {
-    background-color: #000;
-    color: blue;
-}
+// 변수 지정
+$main-color:#02A5AC;
+
+// Common 모음
+@import "./partials/common/_reset.scss";
+
+// partials/commponent 모음
+@import "./partials/components/_header.scss";
+
+// /partials/pages/ 모음
+@import "./partials/pages/_mainhome.scss";
+

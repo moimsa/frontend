@@ -1,0 +1,80 @@
+
+.MainHome--Wrap{
+  overflow: visible;
+  .section--swiper{
+      .swiper{
+          .swiper-slide{
+              img{
+                  width: 100%;
+              }
+          }
+      }
+  }
+  .section--content{
+      .inner{}
+  }
+  .section--content01{
+      .inner{
+          .content01--tit__info_wrapper{
+              border-bottom: 1px solid #f1f1f1;
+              .content01--tit__info__box{
+                  display: flex;
+                  align-items: flex-end;
+                  justify-content: space-between;
+                  padding: 1.5rem;
+                  .content01--tit__info_txt{
+                      h6{
+                          font-size: 3vw;
+                          color: $main-color;
+                          margin-bottom: 1.5rem;
+                          font-weight: bold;
+                      }
+                      h3{
+                          font-size: 4vw;
+                          font-weight: bold;
+                      }
+                  }
+                  .content01--tit__info--more_btn{
+                      a{
+                          color: rgba(0,0,0, 0.3);
+                          text-decoration: underline;
+                          text-underline-position: under;
+                          font-size: 4vw;
+                      }
+                  }
+              }
+          }
+          .content01--list__box{
+              .content01--list__item{
+                  padding: 1.5rem;
+                  border-bottom: 1px solid #f1f1f1;
+                  a{
+                      font-size: 4vw;
+                      h6{
+                          color: #000;
+                          font-weight: bold;
+                          margin-bottom: 1.5rem;
+                          width: 100%;
+                          line-height: 1.4;
+                          white-space: normal;
+                          overflow: hidden;
+                          text-overflow: ellipsis;
+                          display: -webkit-box;
+                          -webkit-line-clamp: 2;
+                          -webkit-box-orient: vertical;
+                      }
+                      .date{
+                          color: rgba(0,0,0, 0.3);
+                      }
+                      &:hover{
+                          h6{
+                              text-decoration: underline;
+                              text-underline-position: under;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}

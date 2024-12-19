@@ -30,7 +30,7 @@ const Header = () => {
       <header>
         <div className="inner">
           <h1 className="navi__main--logo">
-            <Link to="/">moimsa</Link>
+            <Link to={"/"}>moimsa</Link>
           </h1>
           <div
             className={`nav-btn ${isNavOpen ? 'active' : ''}`} // active 클래스 추가
@@ -57,7 +57,7 @@ const Header = () => {
                 <Link>공지사항 게시물</Link>
               </li>
               <li className="navi__item">
-                <Link>모임공지 게시물</Link>
+                <Link to={'/moim'}>모임공지 게시물</Link>
               </li>
             </ul>
           </nav>
